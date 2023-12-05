@@ -95,7 +95,7 @@ button{
 /* Reviews */
 .title{
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 700;
     color: #2D2E2E;
     text-align: center;
     margin-top: 10px;
@@ -112,19 +112,19 @@ button{
     font-size: 1.3rem;
     font-weight: 300;
 }
-.blog_container{
+.review_container{
     display: flex;
     justify-content: space-evenly;
     padding: 5px;
 }
-.blog_item h3{
+.review_item h3{
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 500;
 }
-.blog_item img{
+.review_item img{
     width: 500px;
 }
-.blog_item h3,.blog_item p{
+.review_item h3,.review_item p{
     text-align: center;
 }
 .score{
@@ -133,3 +133,24 @@ button{
 }
 
 /* Showroom */
+.showroom_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    margin-top: 25px;
+}
+.right{
+    margin-left: 50px;
+}
+.left h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.right h3{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.right span{
+    color: #d60000;
+}
