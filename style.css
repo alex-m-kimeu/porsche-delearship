@@ -1,3 +1,7 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap');
+
+/* Global */
 *{
     margin: 0;
     padding: 0;
@@ -6,14 +10,26 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 a{
     text-decoration: none;
 }
 ul{
     list-style: none;
 }
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Header */
 .header{
-    background-color: #03a3fa;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .nav_container{
     display: flex;
@@ -22,22 +38,68 @@ ul{
     margin: 0 30px;
 }
 
-.nav_container li{
+.nav_container li, a{
     padding: 10px;
-
+    color: #2D2E2E;
+    font-weight: 500;
 }
 .nav_logo{
     display: flex;
     align-items: center;
 }
 .nav_logo span{
-    color: #000;
+    color: #d60000;
 }
 .logo{
-    color: #fff;
+    color: #2D2E2E;
 }
 .nav_items{
     display: flex;
     text-align: center;
+    padding: 10px;
 }
+
+/* Home */
+.home_container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 50px;
+    
+
+}
+.home_container h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #2D2E2E;
+}
+.home_container h1, img, a{
+    margin-bottom: 5px;
+}
+.home_img{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home_btn{
+    color: #d60000;
+    display: inline-block;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.home_btn:hover{
+    background-color: #d60000;
+    color: #fff;
+}
+
+/* Blog */
+.blog_container{
+    display: flex;
+    justify-content: space-between;
+}
+.blog_item{
+    text-align: center;
+}
+
+/* Showroom */
 

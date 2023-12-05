@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link CSS -->
     <link rel="stylesheet" href="./style.css">
-    <title>Car Blog</title>
+    <title>Car Dealership</title>
 </head>
 <body>
     <!-- Header -->
     <header class="header">
         <nav class="nav_container">
             <div class="nav_logo">
+                <img src="./img/favicon.ico" alt="">
                 <a href="#home">
-                    <h3 class="logo">Dr.<span>AutoMotive</span></h3>
+                    <h3 class="logo">Dr.<span>Cars</span></h3>
                 </a>
             </div>
             <div>
                 <ul class="nav_items">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#showroom">Showroom</a></li>
                 </ul>
             </div>
         </nav>
@@ -30,30 +31,57 @@
         <!-- Home -->
         <section id="home">
             <div class="home_container">
-                <img src="" alt="">
+                <h1>Find Your Dream Car</h1>
+                <img class="home_img" src="./img/home.png" alt="Car">
+                <a  href="#showroom">
+                    <button class="home_btn" type="button">Showroom</button>
+                </a>
             </div>
         </section>
         <!-- Blog -->
-        <section id="blog">
-            <h2>Need some <span>inspiration</span></h2>
+        <section class="blog" id="blog">
+            <h2 class="title">Need some <span>inspiration?</span></h2>
+            <h3 class="subtitle">Popular Reviews</h3>
             <div class="blog_container">
                 <div class="blog_item">
-                    <h3>BMW</h3>
                     <img src="./img/BMW.jpg" alt="BMW">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tenetur possimus libero laboriosam enim fuga officia, rem ipsum? Sint rerum neque tempora, vitae nisi dicta laborum velit praesentium eum provident quasi placeat harum doloremque a?</p>
+                    <h3>BMW</h3>
+                    <p class="score">9/10</p>
                 </div>
                 <div class="blog_item">
-                    <h3>MERCEDES</h3>
                     <img src="./img/Mercedes.jpg" alt="Mercedes">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tenetur possimus libero laboriosam enim fuga officia, rem ipsum? Sint rerum neque tempora, vitae nisi dicta laborum velit praesentium eum provident quasi placeat harum doloremque a?</p>
+                    <h3>Mercedes-Benz</h3>
+                    <p class="score">8/10</p>
                 </div>
                 <div class="blog_item">
-                    <h3>Lorem, ipsum dolor.</h3>
                     <img src="./img/Dodge.jpg" alt="Dodge">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tenetur possimus libero laboriosam enim fuga officia, rem ipsum? Sint rerum neque tempora, vitae nisi dicta laborum velit praesentium eum provident quasi placeat harum doloremque a?</p>
+                    <h3>Dodge</h3>
+                    <p class="score">7.5/10</p>
                 </div>
             </div>
         </section>
+        <!-- Showroom -->
+        
+        <section class="showroom container" id="showroom">
+            <h2 class="title">Our <span>Showroom</span></h2>
+            <div class="showroom_container">
+                <div class="showroom_item">
+                    <img src="./img/BMW.jpg" alt="BMW">
+                    <h3>BMW</h3>
+                    <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sit, suscipit a voluptate perspiciatis temporibus.</p>
+                </div>
+                <div class="showroom_item">
+                    <img src="./img/Mercedes.jpg" alt="Mercedes">
+                    <h3>Mercedes-Benz</h3>
+                    <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum totam repellat modi quod sunt cupiditate!</p>
+                </div>
+                <div class="showroom_item">
+                    <img src="./img/Dodge.jpg" alt="Dodge">
+                    <h3>Dodge</h3>
+                    <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, obcaecati! Accusantium nisi corrupti fugit laborum.</p>
+                </div>
+            </div>
+        </section> 
     </main>
 </body>
 </html>
