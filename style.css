@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header{
+    background-color: #03a3fa;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.nav_container li{
+    padding: 10px;
+
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+}
+.nav_logo span{
+    color: #000;
+}
+.logo{
+    color: #fff;
+}
+.nav_items{
+    display: flex;
+    text-align: center;
+}
+
