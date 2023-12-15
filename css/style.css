@@ -110,17 +110,15 @@ ul{
 }
 
 /* Models */
-/* .models_content{
+.models_content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     width: 90%;
     margin: auto;
-    background-color: blue;
-} */
-/* .models_card{
+}
+.models_card{
     text-align: center;
-    background-color: #d60000;
-} */
+}
 
 /* Discover */
