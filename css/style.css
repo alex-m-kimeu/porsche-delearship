@@ -117,18 +117,40 @@ padding: 10px 5%;
 }
 
 /* Models */
-/* .models_content{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    width: 90%;
-    margin: auto;
+.models_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .models_card{
-    text-align: center;
-} */
+    width: 400px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+.models_card img{
+    width: 100%;
+    height: auto;
+}
+.model_content{
+    padding: 5px 15px;
+}
+.model_content h3{
+    color: #2d2e2e;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.model_content p{
+    color: #2d2e2e;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
 
-/* Discover */
+/* Specs */
 
 /* Footer */
 .footer{
