@@ -12,18 +12,16 @@
 <body>
     <!-- Header -->
     <header class="header">
+        <!-- logo -->
+        <img class="nav_logo" src="./img/logo.png" alt="Porsche Logo">
         <nav class="nav">
-            <!-- logo -->
-            <img src="./img/logo.png" alt="Porsche Logo">
-            <div class="nav_menu">
-                <a href="#models">Models</a>
-                <a href="#shop">Shop</a>
-                <a href="#discover">Discover</a>
-            </div>
-            <div class="contact_menu">
-                <a href="#contact">Contact</a>
-            </div>
+            <ul class="nav_links">
+                <li><a href="#models">Models</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#discover">Discover</a></li>
+            </ul>
         </nav>
+        <a href="#contact" class="contact_btn"><button type="button">Contact</button></a>
     </header>
     <!-- Home -->
     <div class="background_img">
@@ -31,7 +29,7 @@
             <h3>Porsche</h3>
             <h1>There Is No <br>Substitute.</h1>
             <p>Hugs the road like a mom after graduation</p>
-            <a href="#discover" class="home_btn">What's new</a>
+            <a href="#discover" class="contact_btn"><button type="button">What's New</button></a>
         </div>
     </div>
 
@@ -74,48 +72,56 @@
     </section>
     
     <!-- Shop -->
-    <!-- <section id="shop">
+    <section id="shop">
         <div class="section_title">
             <h2>Shop For Parts</h2>
         </div>
-    </section> -->
+    </section>
 
     <!-- Discover -->
-    <!-- <section id="discover">
+    <section id="discover">
         <div class="section_title">
             <h2>Discover</h2>
         </div>
         <div class="discover_cards">
             <div class="discover_card">
-
+                <img src="./img/engine.png" alt="Engine">
             </div>
             <div class="discover_card">
-                
+                <img src="./img/transmission.png" alt="Transmission">
             </div>
             <div class="discover_card">
-                
+                <img src="./img/brake.png" alt="Brake">
             </div>
         </div>
-    </section> -->
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+
+    </section>
     
     <!-- Footer -->
-    <!-- <footer>
-        <div class="footer_content">
+    <footer class="footer">
+        <div class="footer_container">
             <div class="footer_logo">
-                <img src="./img/logo.png" alt="Porsche Logo">
+                <img src="./img/footer.png" alt="Porsche Logo">
             </div>
             <div class="footer_social">
-                <a href="https://web.facebook.com/porsche/" target="_blank">
+                <a href="https://web.facebook.com/porsche/" target="_blank" rel="noopener" title="Visit Porsche Facebook Page">
                     <i class='bx bxl-facebook-circle'></i>
                 </a>
-                <a href="https://www.instagram.com/porsche/" target="_blank">
+                <a href="https://www.instagram.com/porsche/" target="_blank" rel="noopener" title="Visit Porsche Instagram Page">
                     <i class='bx bxl-instagram-alt' ></i>
                 </a>
-                <a href="https://www.linkedin.com/company/porsche-ag" target="_blank">
+                <a href="https://www.linkedin.com/company/porsche-ag" target="_blank" rel="noopener" title="Visit Porsche LinkedIn Page">
                     <i class='bx bxl-linkedin' ></i>
                 </a>
             </div>
+            <p class="footer_copyright">&#169:
+                AlexKimeu. All right reserved
+            </p>
         </div>
-    </footer> -->
+    </footer>
 </body>
 </html>

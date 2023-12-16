@@ -19,52 +19,59 @@ a{
 ul{
     list-style: none;
 }
+button{
+    border: none;
+    cursor: pointer;
+    padding: 9px 25px;
+    border-radius: 50px;
+    background-color: #d60000;
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #fa0202;
+}
 
 /* Reusable */
+section{
+padding: 10px 5%;
+}
 .section_title{
     text-align: center;
     color: #2d2e2e;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
 /* Header */
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    margin: auto;
-    height: 50px;
+    padding: 15px 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.nav_menu, .contact_menu{
-    display: flex;
-    align-items: center;
+.nav_logo{
+    cursor: pointer;
 }
-.nav_menu a{
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    font-weight: 500;
+    font-size: 1rem;
     color: #2d2e2e;
-    margin-left: 30px;
-    font-size: 1rem;
-    font-weight: 500;
+    transition: all 0.3s ease 0s;
 }
-.contact_menu a{
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 500;
-    background-color: #d60000;
-    padding: 2px 10px;
-    border-radius: 25px;
+.nav_links li a:hover{
+    color: #d60000;
 }
+
 
 /* Home */
 .background_img{
@@ -110,7 +117,7 @@ ul{
 }
 
 /* Models */
-.models_content{
+/* .models_content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -119,6 +126,26 @@ ul{
 }
 .models_card{
     text-align: center;
-}
+} */
 
 /* Discover */
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffe7;
+    color: #2d2e2e;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.footer_social a{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.footer_social a i{
+    font-size: 1.2rem;
+    color: #2d2e2e;
+    transition: all 0.3s ease 0s;
+}
